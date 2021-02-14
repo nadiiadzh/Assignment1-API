@@ -7,13 +7,40 @@
 	</head>
 	<body>
 		<h1>Test</h1>
-        <div id="number"></div>
+        <div id="tr-fact-form">
+                <h2>Trivia</h2>
+                <label>Input number:</label>
+                <input type="text"  id="trivia-number" placeholder="Ex. 15">
+                <button id="getTriviaFactBtn">Get trivia fact</button>  
+                <div id="trivia-fact"></div>
+               
+        </div>
+        <div>
+            <h2>Math</h2>
+            <label>Input number:</label>
+            <input type="text"  id="math-number" placeholder="Ex. 15">
+            <button id="getMathFactBtn">Get math fact</button>
+            <div id="math-fact"></div>
+        </div>
+        <div>
+            <h2>Date</h2>
+            <label>Input month:</label>
+            <input type="text"  id="month-number" placeholder="Ex. 02">
+            <label>Input day:</label>
+            <input type="text"  id="day-number" placeholder="Ex. 14">
+            <button id="getDateFactBtn">Get date fact</button>
+            <div id="date-fact"></div>
+        </div>
+        <div>
+            <h2>Year</h2>
+            <label>Input year:</label>
+            <input type="text"  id="year-number" placeholder="Ex. 2020">
+            <button id="getYearFactBtn">Get year fact</button>
+            <div id="year-fact"></div>
+        </div>
+
         <div id="fact"></div>
         <button id="getRandomBtn">Get random fact</button>
-        <button id="getDateFactBtn">Get date fact</button>
-        <button id="getMathFactBtn">Get math fact</button>
-        <button id="getTriviaFactBtn">Get trivia fact</button>
-        <button id="getYearFactBtn">Get year fact</button>
 		<script src="script.js" type="module"></script>
 	</body>
 </html>
